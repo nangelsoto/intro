@@ -8,3 +8,7 @@ st.write("facilmente puedo realizar backend y frontend")
 image= Image.open("imagen1.png")
 
 st.image(image, caption='art Vang Gogh')
+
+texto = st.text_input('Escribe algo', 'Este es mi texto')
+
+st.write
