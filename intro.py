@@ -29,7 +29,7 @@ with col2:
   modo = st.radio("Que modalidad es la principal en tu interfaz", ('Visual', 'Auditiva', 'Tactil'))
   if modo == 'Visual':
     st.write('La vista es fundamental para tu interfaz')
-  if modo == 'auditiva':
+  if modo == 'Auditiva':
     st.write('La audición es fundamental para tu interfaz')  
   if modo == 'Tactil':
     st.write('El tacto es fundamental para tu interfaz')   
